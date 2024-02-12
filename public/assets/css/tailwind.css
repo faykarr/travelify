@@ -558,34 +558,12 @@ h1 {
   --tw-backdrop-sepia:  ;
 }
 
-.bg-primary {
-  --tw-bg-opacity: 1;
-  background-color: rgb(93 80 198 / var(--tw-bg-opacity));
-}
-
-.font-jakarta {
-  font-family: Poppins;
-}
-
-.text-9xl {
-  font-size: 8rem;
+.text-7xl {
+  font-size: 4.5rem;
   line-height: 1;
 }
 
-.font-bold {
-  font-weight: 700;
-}
-
-.font-extrabold {
-  font-weight: 800;
-}
-
-.text-orange {
-  --tw-text-opacity: 1;
-  color: rgb(255 87 34 / var(--tw-text-opacity));
-}
-
-.text-primary {
-  --tw-text-opacity: 1;
-  color: rgb(93 80 198 / var(--tw-text-opacity));
+.text-6xl {
+  font-size: 3.75rem;
+  line-height: 1;
 }

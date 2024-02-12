@@ -10,7 +10,7 @@ module.exports = {
     },
     extend: {
       fontFamily: {
-        jakarta: ["Poppins"],
+        poppins: ["Poppins"],
       },
     },
   },
