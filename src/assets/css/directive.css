@@ -16,3 +16,12 @@
     font-family: Circular STD;
   }
 }
+
+@layer components {
+  .btn-nav-mobile {
+    @apply flex justify-center flex-col items-center gap-1;
+  }
+  .disabled {
+    @apply text-dark opacity-50;
+  }
+}
