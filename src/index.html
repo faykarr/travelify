@@ -20,7 +20,8 @@
 </head>
 
 <body>
-    <nav class="py-9 px-4" x-data="{navOpen : true}">
+    <!-- Navbar Component -->
+    <nav class="py-9 px-4" x-data="{navOpen : false}">
         <div class="container mx-auto">
             <div class="flex items-center justify-between">
                 <a href="" class="p-0 m-0 order-1 sm:order-2">
@@ -104,6 +105,35 @@
             </div>
         </div>
     </nav>
+    <!-- Navbar Component -->
+
+    <!-- Hero Section -->
+    <section>
+        <div class="container mx-auto p-4">
+            <div class="grid grid-cols-12">
+                <div class="col-span-12 lg:col-span-4 order-2">
+                    <div>
+                        <button
+                            class="text-secondary font-bold tracking-wider flex gap-4 justify-center bg-white px-8 py-4 rounded-full drop-shadow-2xl shadow-secondary">
+                            Explore the world!
+                            <img src="../public/assets/img/icons/work-bag.svg" alt="Work Icon">
+                        </button>
+                        <h1 class="font-bold text-[40px] text-dark leading-tight">Travel <span
+                                class="text-secondary">top
+                                destination</span> of the world</h1>
+                        <p class="disabled font-normal">We always make our customer happy by providing
+                            as many choices as possible</p>
+                    </div>
+                </div>
+                <div class="col-span-12 lg:col-span-8 order-1">
+                    <div>
+                        <img src="../public/assets/img/hero-section.png" alt="Hero Picture">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Hero Section -->
 
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
 </body>
