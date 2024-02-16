@@ -59,7 +59,7 @@
                 x-transition:enter-start="opacity-0 scale-90" x-transition:enter-end="opacity-100 scale-100"
                 x-transition:leave="transition ease-in duration-300" x-transition:leave-start="opacity-100 scale-100"
                 x-transition:leave-end="opacity-0 scale-90" x-data="{open : false}"
-                class="fixed bottom-0 right-0 left-0 p-4 bg-white border lg:hidden">
+                class="fixed bottom-0 right-0 left-0 p-4 bg-white border lg:hidden z-50">
                 <ul class="flex justify-between">
                     <li>
                         <button class="btn-nav-mobile active">
@@ -109,26 +109,39 @@
 
     <!-- Hero Section -->
     <section>
-        <div class="container mx-auto p-4">
-            <div class="grid grid-cols-12">
-                <div class="col-span-12 lg:col-span-4 order-2">
-                    <div>
+        <div class="container mx-auto px-4 py-9 lg:py-16">
+            <div class="grid grid-cols-12 items-center justify-center">
+                <div class="col-span-12 lg:col-span-4 order-2 lg:order-1">
+                    <button
+                        class="text-secondary font-bold tracking-wider flex gap-4 justify-center bg-white px-8 py-4 rounded-full drop-shadow-2xl shadow-secondary text-sm mx-auto lg:mx-0">
+                        Explore the world!
+                        <img src="../public/assets/img/icons/work-bag.svg" alt="Work Icon">
+                    </button>
+                    <h1
+                        class="mt-4 mb-6 md:mt-[43px] md:mb-[43px] font-bold text-[40px] text-dark leading-tight text-center md:text-[56px] lg:text-[69px] lg:text-left">
+                        Travel <span class="text-secondary">top
+                            destination</span> of the world</h1>
+                    <p
+                        class="disabled font-normal text-center lg:text-left text-base font-poppins mb-8 md:mb-[43px] md:text-lg md:w-3/4 lg:w-full md:mx-auto lg:mx-0">
+                        We
+                        always make
+                        our customer
+                        happy by
+                        providing
+                        as many choices as possible</p>
+                    <div class="flex flex-col md:flex-row md:justify-center lg:justify-start gap-6 md:gap-4">
                         <button
-                            class="text-secondary font-bold tracking-wider flex gap-4 justify-center bg-white px-8 py-4 rounded-full drop-shadow-2xl shadow-secondary">
-                            Explore the world!
-                            <img src="../public/assets/img/icons/work-bag.svg" alt="Work Icon">
+                            class="py-6 md:py-4 px-8 bg-primary rounded-full drop-shadow-2xl text-white font-poppins font-bold text-sm">Get
+                            Started</button>
+                        <button
+                            class="z-10 py-6 md:py-4 px-8 bg-white border border-[#EEE] rounded-full text-dark font-poppins font-bold text-sm flex gap-2 justify-center items-center">
+                            <img src="../public/assets/img/icons/play-button.svg" alt="Play Button">
+                            Watch Demo
                         </button>
-                        <h1 class="font-bold text-[40px] text-dark leading-tight">Travel <span
-                                class="text-secondary">top
-                                destination</span> of the world</h1>
-                        <p class="disabled font-normal">We always make our customer happy by providing
-                            as many choices as possible</p>
                     </div>
                 </div>
-                <div class="col-span-12 lg:col-span-8 order-1">
-                    <div>
-                        <img src="../public/assets/img/hero-section.png" alt="Hero Picture">
-                    </div>
+                <div class="col-span-12 lg:col-span-8 order-1 lg:order-2">
+                    <img src="../public/assets/img/hero-section.png" class="w-full" alt="Hero Picture">
                 </div>
             </div>
         </div>
